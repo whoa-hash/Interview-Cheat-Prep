@@ -5,10 +5,10 @@ Search:
   If you keep dividing and only searching in half until you either find the target or it is not there - that is log<sub>2</sub>(N).      Therefore, log(N) shows the runtime as the input size grows = time complexity.
                
   The best runtime is if your target is the first element you choose/middle of the array.
-_  Notes:
+__  Notes:
     1. search on a sorted array/sorted balanced tree is the same
     2. completely skewed tree (all elements are on the right or left) would be O(N)
-_
+____
 Sorts:
 1. **Selection Sort** - Runtime O(N<sup>2</sup>) in all cases, since we are traversing the array for each spot in the array to check for a minimum element 
 
