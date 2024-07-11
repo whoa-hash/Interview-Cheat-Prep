@@ -1,5 +1,5 @@
 Search:
-**Binary search** -- avg and worst runtimes -- O(log N) best O(1)
+**Binary search** - Runtime O(log N) avg and worst runtimes, best O(1)
 
   Explanation: Each time you are comparing the middle of the array to the target and discarding half of the array. 
   If you keep dividing and only searching in half until you either find the target or it is not there - that is log<sub>2</sub>(N).      Therefore, log(N) shows the runtime as the input size grows = time complexity.
