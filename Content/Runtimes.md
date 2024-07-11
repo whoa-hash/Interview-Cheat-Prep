@@ -18,4 +18,4 @@ Sorts:
 2. **Merge Sort** - Runtime O(N log(N)) in all cases, since we divide the array recursively in half = log(N) and linearly (N) merge the
    halves back in sorted order.
 
-   Explanation: Divide the unsorted array into halves until each element is alone in its array. Now that it is sorted (when it is the     only element then it is by default sorted), we can merge the sorted arrays together in sorted order. 
+   Explanation: Keep an empty array for the sorted elements. Divide the unsorted array into halves until each element is alone in its     array. Now that it is sorted (when it is the only element then it is by default sorted), we can merge the sorted arrays together in    sorted order by comparing the elements in each subarray (there will be 2) at the first index of the element not yet in the sorted      array; the smaller element will be placed in the array and both the subarray index and the sorted array index will be incremented.
