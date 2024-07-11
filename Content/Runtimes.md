@@ -6,10 +6,10 @@ Search:
                
   The best runtime is if your target is the first element you choose/middle of the array.
   
-__  Notes:
+  _Notes:_
     1. search on a sorted array/sorted balanced tree is the same
     2. completely skewed tree (all elements are on the right or left) would be O(N)
-____
+
 Sorts:
 1. **Selection Sort** - Runtime O(N<sup>2</sup>) in all cases, since we are traversing the array for each spot in the array to check for a minimum element 
 
